@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "FoodScape",
+    "slug": "FoodScape",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#F27C28"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uthmanee.FoodScape"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.uthmanee.FoodScape"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "scheme": "FoodScape",
+    "plugins": ["expo-secure-store"],
+    "extra": {
+      "eas": {
+        "projectId": "1ba299f4-c022-474f-8b47-97375b6a5d46"
+      }
+    },
+    "owner": "uthmanee"
+  }
+}
